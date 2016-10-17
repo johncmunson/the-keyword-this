@@ -1,15 +1,23 @@
 //We're in a job interview. Answer the following questions (try to not look at your notes unless you have to).
   // 1) What is the purpose of the 'this keyword'?
 
-      //Answer
+      // By default, "this" refers to the object that owns the current function.
 
   // 2) What are the four rules that govern what the 'this keyword' is bound to and describe each?
 
-      //Answer
+      // Function invocation (Default binding)
+      // Method invocation (Implicit binding)
+      // Explicit binding (Soft & Hard)
+      // Constructor invocation (New binding)
 
   // 3) What is the difference between call and apply?
 
-      //Answer
+      // Both call and apply allow you to invoke a function while defining the relevant scope.
+      // The relevant scope must be passed in as the first argument and an object.
+      // With call, the remaining arguments are passed in as a comma separated list.
+      // With apply, the remaining arguments are passed in as an array.
+      // Essentially, these two keywords allow us to define the scope of the function explicitly.
+      // These keywords are also useful in conjunction with variable-arity functions.
 
   // 4) What does .bind do?
 
